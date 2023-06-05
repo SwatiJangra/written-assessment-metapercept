@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: #fffffff2;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+}
+
+#header h1 {
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+}
+
+.div button {
+    width: 90px;
+    height: 40px;
+    background-color: transparent;
+    color: dodgerblue;
+    border-radius: 4px;
+    border-color: dodgerblue;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#section1 {
+    background-color: dodgerblue;
+    margin-top: 20px;
+    line-height: 2.5;
+}
+
+#section1 h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 10px 10px 0 10px;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+#section1 p {
+    text-align: center;
+    color: white;
+}
+
+#section1 .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+#section1 button {
+    width: 90px;
+    height: 40px;
+    background-color: #fff;
+    color: black;
+    border-radius: 4px;
+    border-color: transparent;
+    font-size: 14px;
+    font-weight: 500;
+}
+#gallery-slides {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+
+#gallery {
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#gallery h1 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 100;
+    color: rgb(72, 71, 71);
+}
+
+#gallery p {
+    text-align: center;
+    font-weight: 100;
+    color: rgb(72, 71, 71);
+}
+
+#gallery .container {
+    width: 30%;
+    border: 1px solid rgb(72, 71, 71);
+}
+
+#gallery .container img {
+    width: 100%;
+}
+#gallery .container .des {
+    text-align: start;
+    padding: 10px 0;
+}
+
+#gallery .container .des h5 {
+    padding: 10px;
+    font-size: 14px;
+}
+
+#gallery .container .des p {
+    padding-left: 10px;
+    text-align: start;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+#gallery .container .des button {
+    margin: 10px;
+    width: 25%;
+    height: 4vh;
+    font-size: 12px;
+    color: rgb(72, 71, 71);
+    border:1px solid rgb(72, 71, 71);
+    background: white;
+}
+
+
+
+
+
